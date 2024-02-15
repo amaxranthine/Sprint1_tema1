@@ -1,0 +1,14 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.header{
+    background: #000;
+}
+.section{
+    background: #000;
+}
+.footer{
+    background: #000;
+}
