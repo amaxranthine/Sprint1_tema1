@@ -3,12 +3,33 @@
     padding: 10px;
     box-sizing: border-box;
 }
-.header{
-    background: #000;
+.padre{
+
 }
-.section{
-    background: #000;
-}
-.footer{
-    background: #000;
-}
+    .header{
+        background: #000;
+    }
+        .menu{
+            background: #43766C ;
+        }
+            .logo{
+                background: #F8FAE5;
+            }
+            .nav{
+                background: #F8FAE5;
+            }
+            .social{
+                background: #F8FAE5;
+            }
+        .texto-principal{
+            background: #f07b3f;
+        }    
+            .h1{
+                background: #B19470;
+            }
+    .section{
+        background: #000;
+    }
+    .footer{
+        background: #000;
+    }
