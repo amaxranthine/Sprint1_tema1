@@ -74,8 +74,19 @@
             background: #ffea85;
             
         }
-@media all and (max-width: 800px){
+           /* Tablet */
+@media all and (max-width:800px){
+    .section{
+        background: #ebd003;
+        flex-direction: column;
+       }
+    .articulos{
+        flex-direction: column;
+       }
+} 
+            /* Mobile */
+@media all and (max-width:400px){
     .section{
         flex-direction: column;
-    }   
+   }
 }
