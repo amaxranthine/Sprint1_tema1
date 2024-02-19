@@ -26,11 +26,26 @@
             background: #f07b3f;
         }    
             .h1{
-                background: #B19470;
+                background: #fee10c;
             }
     .section{
         background: #000;
     }
+        .articulos{
+            background: #F9E8D9;
+        }
+        .article{
+            background: #B19470;
+        }
+        .navegacion{
+            background: #76453B ;
+        }
+        .aside{
+            background: #B2A59B;
+        }
+            .publicidad{
+                background: #f3b95f;
+            }
     .footer{
         background: #000;
     }
