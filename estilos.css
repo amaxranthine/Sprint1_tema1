@@ -53,7 +53,7 @@
         }
         .article{
             background: #B19470;
-            flex: 1 1 auto;
+            flex: 1 1 40%;
         }
         .navegacion{
             background: #76453B ;
@@ -74,8 +74,8 @@
             background: #ffea85;
             
         }
-@media all and (max-witdh:800px){
+@media all and (max-width: 800px){
     .section{
         flex-direction: column;
-       }
-} 
+    }   
+}
