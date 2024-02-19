@@ -5,22 +5,35 @@
 }
 
 .padre{
-    
+    display: flex;
+    flex-flow: column nowrap;
 }
     .header{
         background: #000;
+        display: flex;
+        flex-flow: column nowrap;
     }
         .menu{
             background: #43766C ;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 100px;
+            align-items: center;
         }
             .logo{
                 background: #F8FAE5;
+                flex: 1 1 auto;
+                height: 30px;
             }
             .nav{
                 background: #F8FAE5;
+                flex: 5 1 auto;
+                height: 30px;
             }
             .social{
                 background: #F8FAE5;
+                flex: 1 1 auto;
+                height: 30px;
             }
         .texto-principal{
             background: #f07b3f;
@@ -30,22 +43,37 @@
             }
     .section{
         background: #000;
+        display: flex;
     }
         .articulos{
             background: #F9E8D9;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
         }
         .article{
             background: #B19470;
+            flex: 1 1 auto;
         }
         .navegacion{
             background: #76453B ;
+            flex: 1 1 100%;
         }
         .aside{
             background: #B2A59B;
+            flex: 1 1 auto;
         }
             .publicidad{
                 background: #f3b95f;
             }
     .footer{
         background: #000;
+       
     }
+        .pie{
+            background: #ffea85;
+            
+        }
+@media all and (max-witdh:800px){
+    
+}
