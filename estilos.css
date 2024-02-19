@@ -75,5 +75,7 @@
             
         }
 @media all and (max-witdh:800px){
-    
-}
+    .section{
+        flex-direction: column;
+       }
+} 
